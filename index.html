@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio-One Page Website</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+<style>
+    aside{
+        background-image: url(./image/hero-bg.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: left 0 right 0;
+    }
+
+    img{
+        width: 100%;
+        height: 100%;
+    }
+    .row .card img{
+        width: 100%;
+        height: 100%;
+    }
+    .navbar-light .navbar-nav .nav-link.active{
+        color: red;
+    }
+</style>
+</head>
+<body data-bs-spy="scroll" data-bs-target="#collapsibleNavId">
+   <header>
+   <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Portfolio</a>
+        <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav ms-auto mt-2 mt-lg-0 fw-bolder">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#home" aria-current="page">Home <span class="visually-hidden">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about" aria-current="page">About<span class="visually-hidden">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio" aria-current="page">Portfolio <span class="visually-hidden">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#blog" aria-current="page">Blog <span class="visually-hidden">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact" aria-current="page">Contact <span class="visually-hidden">(current)</span></a>
+                </li>
+            </ul>
+        </div>
+     </div>
+   </nav>
+   
+    
+   </header>
+
+   <aside class="w-100 vh-100 d-flex flex-column justify-content-center align-items-center px-5" id="home">
+    
+        <h1 class=" display-1 fw-bold" data-aos="fade-right">Peculiar A. Chi</h1>
+        <p class="text-center text-black-50 fs-3" data-aos="fade-left">I'm A Professional Front-End Web Developer</p>
+        <button class="btn btn-danger rounded-pill">About Me</button>
+   </aside>
+
+   <main class=" h-auto px-5 py-5" id="about">
+    <div class="title w-100 text-center">
+        <h2 class=" display-4 fw-bold">About</h2>
+        <p class="pb-5">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, odio.
+        </p>
+        <!-- col-xl-6 col-lg-6 col-md-6 col-sm-12  -->
+    </div>
+    <div class="aboutMe-details w-100 row bg-light">
+        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12" data-aos="fade-right" data-aos-easing="ease-out-sine">
+            <img class="col-lg-10 h-75" src="./image/about.jpg" alt="Me">
+        </div>
+       
+        <div class="pb-5 text-justify col-xl-6 col-lg-6 col-md-6 col-sm-12" data-aos="fade-up" data-aos-easing="ease-out-sine">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga, veritatis animi distinctio minus nihil officiis 
+            laboriosam sed reiciendis consequatur voluptatum dolore perspiciatis voluptas consectetur omnis! Eaque, soluta iusto. 
+            Alias, fuga velit optio necessitatibus totam blanditiis 
+            mollitia quisquam est nesciunt sit molestiae quibusdam obcaecati. Id commodi ratione hic impedit, sit quaerat.
+            <h2 class="pt-3">My Skills:</h2> 
+            <br>
+            <p>HTML:</p>
+            <div class="progress">
+                <div class="w-100 progress-bar progress-bar-striped progress-bar-animated bg-primary">100%</div> 
+            </div>
+            <br> 
+            <p class="">CSS:</p>
+            <div class="progress">
+                <div class="w-75 progress-bar progress-bar-striped progress-bar-animated  bg-info">75%</div> 
+            </div> 
+            <br>
+            <p>Bootstrap:</p>
+            <div class="progress">
+                <div class="w-75 progress-bar progress-bar-striped progress-bar-animated  bg-danger">75%</div> 
+            </div> <br>
+            <p>Javascript:</p>
+            <div class="progress">
+                <div class="w-50 progress-bar progress-bar-striped progress-bar-animated  bg-warning">50%</div> 
+            </div> 
+        </div>
+    </div>
+   </main>
+
+   <section class="w-100 h-auto bg-dark  text-center text-light py-5 px-5" id="portfolio">
+    <h2 class="pt-5 text-light text-uppercase">my portfolio</h2>
+    <p class="pb-5">Lorem ipsum dolor sit amet, consectetur 
+        adipisicing elit. Voluptatem, doloribus?</p>
+        <div class="row justify-content-center py-5">
+            <div class="image col-lg-4 col-md-6 col-sm-12 my-3">
+                <img class="img-fluid img-thumbnail" src="./image/img1.jpg" alt="" data-aos="fade-up">
+            </div>
+            <div class="image col-lg-4 col-md-6 col-sm-12 my-3" data-aos="fade-up">
+                <img class="img-fluid img-thumbnail" src="./image/img2.jpg" alt="">
+            </div>
+            <div class="image col-lg-4 col-md-6 col-sm-12 my-3" data-aos="fade-up">
+                <img class="img-fluid img-thumbnail" src="./image/img3.jpg" alt="">
+            </div>
+            <div class="image col-lg-4 col-md-6 col-sm-12 my-3" data-aos="fade-up">
+                <img class="img-fluid img-thumbnail" src="./image/img4.jpg" alt="">
+            </div>
+            <div class="image col-lg-4 col-md-6 col-sm-12 my-3" data-aos="fade-up">
+                <img class="img-fluid img-thumbnail" src="./image/img5.jpg" alt="" data-aos="fade-up">
+            </div>
+            <div class="image col-lg-4 col-md-6 col-sm-12 my-3" data-aos="fade-up">
+                <img class="img-fluid img-thumbnail" src="./image/img6.jpg" alt="">
+            </div>
+        </div> 
+   </section>
+
+   
+    <div class="w-100 h-auto text-dark bg-light row p-5" id="blog"> 
+        <h2 class="text-uppercase text-center">my blog</h2>
+        <p class="text-center pb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, doloribus?</p>
+        <!-- New card  -->
+       
+       <div class="row px-5">
+
+         <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+            <div class="card" data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-out-sine">
+             <img src="./image/img1.jpg" alt="">
+              <div class="card-body">
+                <h3 class="card-title">Lorem ipsum dolor sit amet.</h3>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                 Facilis at illum natus sequi 
+                 explicabo, adipisci saepe et. Vero, labore enim.</p>
+                 <a class="btn btn-primary" href="#">Read more</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+            <div class="card" data-aos="fade-up"
+            data-aos-offset="300"
+            data-aos-easing="ease-out-sine">
+             <img src="./image/img1.jpg" alt="">
+              <div class="card-body">
+                <h3 class="card-title">Lorem ipsum dolor sit amet.</h3>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                 Facilis at illum natus sequi 
+                 explicabo, adipisci saepe et. Vero, labore enim.</p>
+                 <a class="btn btn-primary" href="#">Read more</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+            <div class="card" data-aos="fade-left"
+            data-aos-offset="300"
+            data-aos-easing="ease-out-sine">
+             <img src="./image/img1.jpg" alt="">
+              <div class="card-body">
+                <h3 class="card-title">Lorem ipsum dolor sit amet.</h3>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                 Facilis at illum natus sequi 
+                 explicabo, adipisci saepe et. Vero, labore enim.</p>
+                 <a class="btn btn-primary" href="#">Read more</a>
+              </div>
+            </div>
+          </div>
+       </div>
+        
+       </div>
+
+   
+
+   <footer class="bg-dark h-auto text-light p-5" id="contact">
+    <h2 class="text-center">CONTACT</h2>
+    <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, doloribus?</p>
+    <form class="form w-50 mx-auto" action="" data-aos="zoom-in-up" data-aos-easing="ease-out-sine">
+       <div class="mb-3">
+        <label class="form-label" for="name">Your Name</label> 
+        <input class="form-control" type="text" name="name" id="name" aria-describedby="emailhelp">
+        
+       </div>
+    
+        <div class="mb-3">
+          <label for="email" class="form-label">Your Email</label>
+          <input type="email" class="form-control" name="email" id="email" aria-describedby="emailHelpId" placeholder="">
+          <!-- <small id="emailHelpId" class="form-text text-muted">Help text</small> -->
+        </div>
+        <div class="mb-3">
+          <label for="subject" class="form-label">Your Subject</label>
+          <input type="text" class="form-control" name="subject" id="subject" aria-describedby="emailHelpId" placeholder="">
+          <!-- <small id="emailHelpId" class="form-text text-muted">Help text</small> -->
+        </div>
+
+       <div class="mb-3">
+         <label for="msg" class="form-label">Your Messagge</label>
+         <textarea class="form-control" name="message" id="msg" rows="10"></textarea>
+       </div>
+
+      
+        <button type="submit" class="btn btn-danger col-xxl-3 col-xl-3 col-lg-3 col-md-2 col-sm-1  btn-lg px-5">Submit</button>
+     
+    </form>
+    
+    <div class="pat text-center pt-5">All right reserved &copy; <a class="text-light text-decoration-none" href="https://wa.me/+2348066590156">JAC</a> 2023</div>
+   </footer>
+
+  
+    
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({duration: 1000});
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
